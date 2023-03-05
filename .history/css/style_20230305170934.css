@@ -1,0 +1,17 @@
+.hidden {
+  display: none;
+}
+
+#container {
+  position: absolute;
+}
+
+#login-form {
+  vertical-align: middle;
+}
+
+#bgImage {
+  position: relative;
+  width: auto;
+  height: auto;
+}

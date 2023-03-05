@@ -1,0 +1,17 @@
+.hidden {
+  display: none;
+}
+
+#container {
+  position: absolute;
+}
+
+#login-form {
+  margin: auto;
+}
+
+#bgImage {
+  position: relative;
+  width: auto;
+  height: auto;
+}

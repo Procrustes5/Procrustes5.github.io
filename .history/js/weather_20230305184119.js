@@ -18,7 +18,6 @@ function getWeather (lat, lng) {
         const weathers = data.weather[data.weather.length -1];
         weatherContainer.appendChild(weatherSpan);
         weatherSpan.innerHTML = `${temp}&#176;C ${weathers.main}`;
-        weatherSpan.id = "weathers"
     })
 }
 

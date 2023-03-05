@@ -1,0 +1,56 @@
+.hidden {
+  display: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0px;
+}
+
+#bg { 
+  width: 100%;
+}
+
+#img-container {
+  
+}
+
+#container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0%;
+}
+
+#greeting {
+  font-size: 20px;
+  color: wheat;
+}
+
+#login-form {
+  
+}
+
+#clock {
+  color: wheat;
+  font-size: 70px;
+}
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+#quote span {
+  border-bottom: 10px;
+  color: wheat;
+}
+#quote:first-child {
+  font-size: 20px;
+}
+#quote:last-child {
+  font-size: 30px;
+}
+
